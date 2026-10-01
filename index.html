@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>פריסת גליל — מודל תלת־ממד</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1>פריסת גליל</h1>
+        <p>גררו כדי לסובב · גלגלת/צביטה לזום</p>
+      </div>
+      <button id="resetView" type="button">איפוס תצוגה</button>
+    </header>
+
+    <section class="viewer-card" aria-label="מודל תלת־ממד של פריסת גליל">
+      <div id="viewer"></div>
+      <div id="loading" class="loading">טוען את המודל…</div>
+      <div id="error" class="error" hidden></div>
+    </section>
+  </main>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.164.1/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.164.1/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+# Exported by three-d-stage
+newmtl lateral_surface
+Kd 0.2747 0.4508 0.6376
+Ks 0.2000 0.2000 0.2000
+Ns 50
+d 1.0000
+
+newmtl edge_circumference
+Kd 0.6939 0.2232 0.0242
+Ks 0.2000 0.2000 0.2000
+Ns 110
+d 1.0000
+
+newmtl edge_height
+Kd 0.0284 0.1590 0.1119
+Ks 0.2000 0.2000 0.2000
+Ns 110
+d 1.0000
+
+newmtl dimension_ink
+Kd 0.0123 0.0116 0.0097
+Ks 0.2000 0.2000 0.2000
+Ns 100
+d 1.0000
+
+newmtl roll_trace
+Kd 0.5271 0.0409 0.0242
+Ks 0.2000 0.2000 0.2000
+Ns 120
+d 1.0000
+
+newmtl base_disc
+Kd 0.7682 0.7157 0.5972
+Ks 0.2000 0.2000 0.2000
+Ns 40
+d 1.0000
+
